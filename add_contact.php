@@ -6,6 +6,13 @@
      $email_address = filter_input(INPUT_POST, 'email_address');
      $phone_number = filter_input(INPUT_POST, 'phone_number');
 
+     echo $first_name;
+     echo $last_name;
+     echo $email_address;
+     echo $phone_number;
+
+     die();
+
     //code to save to MySQL Database goes here
     // Validate inputs
     if($first_name == null || $last_name == null ||
