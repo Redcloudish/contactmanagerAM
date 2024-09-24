@@ -6,10 +6,10 @@
      $email_address = filter_input(INPUT_POST, 'email_address');
      $phone_number = filter_input(INPUT_POST, 'phone_number');
 
-     echo $first_name;
-     echo $last_name;
-     echo $email_address;
-     echo $phone_number;
+     echo $first_name;  ."<br /> ";
+     echo $last_name;   ."<br /> ";
+     echo $email_address;  ."<br /> ";
+     echo $phone_number;   ."<br /> ";
 
      die();
 
